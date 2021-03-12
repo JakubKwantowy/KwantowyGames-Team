@@ -1,9 +1,9 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: 'Please add this'
-labels: ''
-assignees: 'JakubKwantowy'
+title: ''
+labels: enhancement
+assignees: JakubKwantowy
 
 ---
 
