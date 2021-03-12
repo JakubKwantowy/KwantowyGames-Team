@@ -2,4 +2,4 @@
 Kwantowy Games offitial Github repository
 
 Please consider supporting us by sending new Ideas
-to the Discussion!
+to the Discussions!
