@@ -3,8 +3,8 @@ haslo = haslo.toUpperCase();
 var enchaslo='';
 var len=haslo.length;
 var skuchy = 0;
-var yessnd = new Audio('hangman/yes.wav');
-var nosnd = new Audio('hangman/no.wav');
+var yessnd = new Audio('https://www.github.com/JakubKwantowy/KwantowyGames-Team/raw/Master/WebDemos/hangman/yes.wav');
+var nosnd = new Audio('https://www.github.com/JakubKwantowy/KwantowyGames-Team/raw/Master/WebDemos/hangman/no.wav');
 
 for(i=0;i<len;i++){
 	if(haslo.charAt(i)==' ') enchaslo = enchaslo+' '; 
@@ -110,7 +110,7 @@ function test(nr){
 		
 		//skucha
 		skuchy++;
-		var obraz = 'hangman/s'+skuchy+'.jpg';
+		var obraz = 'https://raw.githubusercontent.com/JakubKwantowy/KwantowyGames-Team/Master/WebDemos/hangman/s'+skuchy+'.jpg';
 		document.getElementById('szubienica').innerHTML = '<img src="'+obraz+'" title="error: '+skuchy+'"/>';
 	}
 	
